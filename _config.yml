@@ -8,3 +8,24 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+
+
+surveyjs_version: "0.12.15"
+
+sass:
+    sass_dir: _sass
+
+include:
+  - ".nojekyll"
+
+baseurl: "/site"
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.*"
+  - "Rakefile"
+  - "README.md"
+  - "node_modules"
+  - "tmp"
+  - "packages"
